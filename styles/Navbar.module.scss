@@ -1,0 +1,85 @@
+.navbar {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  
+ 
+
+  .container {
+    padding: 0px 30px;
+    background-color: #111;
+    width: 95%;
+    height: 100%;
+    box-shadow: 2px 2px 12px -2px rgba(0,166,72,0.26);
+-webkit-box-shadow: 2px 2px 12px -2px rgba(0,166,72,0.26);
+-moz-box-shadow: 2px 2px 12px -2px rgba(0,166,72,0.26);
+
+    display: flex;
+    align-items: center;
+    border-radius: 0px 0px 30px 30px;
+
+    .left {
+      flex: 1;
+      display: flex;
+      justify-content: flex-start;
+
+
+      span{
+        font-size: 20px;
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+
+        span{
+            color: red;
+        }
+      }
+    }
+
+    .center {
+      flex: 2;
+      display: flex;
+      justify-content: center;
+      li {
+        // flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        list-style: none;
+        transition:all .5s ease-in-out ;
+        cursor: pointer;
+        margin: 10px;
+        
+        &:hover{
+            color: red;
+        }
+      }
+    }
+
+    .right {
+      flex: 1;
+      display: flex;
+      justify-content: flex-end;
+
+      >*{
+        cursor: pointer;
+      }
+
+      button{
+        background: transparent;
+        border: 2px solid #fff;
+        color: #fff;
+        font-weight: bold;
+        cursor: pointer;
+        padding: 10px 25px;
+        border-radius: 20px;
+      }
+    }
+  }
+
+  .menuNavColor{
+    background-color: #00a648;
+  }
+ 
+}

@@ -1,0 +1,17 @@
+.orderBtn{
+    // border: 1px solid red;
+
+    button{
+        border: none;
+        padding: 15px 20px;
+        border-radius: 30px;
+        background-color: #111;
+        color: #fff;
+        font-weight: 500;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        cursor: pointer;
+    }
+}
